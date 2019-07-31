@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="header">
+      <h1>Weather App</h1>
+      <p class="lead">Know the Weather</p> 
+  </div>
+
+  <form class="inputArea">
+    <input id="textInput" autofocus type="text" placeholder="Name Of City...">
+    <button id="btn" type="button" value="button">Search</button>
+    <p id="error"></p>
+  </form>
+
+  <div class="displayWeather">
+    <h3 id="report"></h3>
+    <p id="cityName"></p>
+    <p id="description"></p>
+    <p id="temperature"></p>
+    <p id="humidity"></p>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
